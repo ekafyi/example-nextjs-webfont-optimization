@@ -222,7 +222,7 @@ export const Home: NextPage<IHomePageProps> = ({ name }): JSX.Element => (
 )
 
 export const getStaticProps: GetStaticProps = async () => {
-  return { props: { name: 'John Doe' } }
+  return { props: { name: 'stranger' } }
 }
 
 export default Home
