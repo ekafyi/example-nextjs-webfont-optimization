@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { GetStaticProps, NextPage } from 'next'
 
-export const Home = (): JSX.Element => (
+type IHomePageProps = { name?: string }
+
+export const Home: NextPage<IHomePageProps> = ({ name }): JSX.Element => (
   <div className="container">
     <Head>
       <title>Create Next App</title>
@@ -22,9 +25,7 @@ export const Home = (): JSX.Element => (
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
 
-      <p className="description">
-        Get started by editing <code>pages/index.tsx</code>
-      </p>
+      <p className="description">Hello {name || 'world'}!</p>
 
       <button
         onClick={() => {
@@ -219,5 +220,9 @@ export const Home = (): JSX.Element => (
     `}</style>
   </div>
 )
+
+export const getStaticProps: GetStaticProps = async () => {
+  return { props: { name: 'John Doe' } }
+}
 
 export default Home
