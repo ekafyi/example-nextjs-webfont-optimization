@@ -6,6 +6,15 @@ export const Home = (): JSX.Element => (
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="anonymous"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker"
+        rel="stylesheet"
+      />
     </Head>
 
     <main>
@@ -123,6 +132,9 @@ export const Home = (): JSX.Element => (
         margin: 0;
         line-height: 1.15;
         font-size: 4rem;
+        font-family: 'Permanent Marker', -apple-system, BlinkMacSystemFont,
+          Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+          Helvetica Neue, sans-serif;
       }
 
       .title,
