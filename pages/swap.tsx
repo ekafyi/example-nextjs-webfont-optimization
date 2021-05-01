@@ -14,7 +14,7 @@ export const Swap: NextPage = (): JSX.Element => (
         crossOrigin="anonymous"
       />
       <link
-        href="https://fonts.googleapis.com/css2?family=Oi&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
         rel="stylesheet"
       />
     </Head>
@@ -133,9 +133,9 @@ export const Swap: NextPage = (): JSX.Element => (
         margin: 0;
         line-height: 1.15;
         font-size: 4rem;
-        font-family: 'Oi', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-          Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-          sans-serif;
+        font-family: 'Indie Flower', -apple-system, BlinkMacSystemFont, Segoe UI,
+          Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+          Helvetica Neue, sans-serif;
       }
 
       .title,
