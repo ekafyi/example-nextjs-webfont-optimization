@@ -10,7 +10,7 @@ interface ISlugPageProps {
 const SlugPage: NextPage<ISlugPageProps> = ({ slug }) => {
   return (
     <div className="container">
-      <Head>
+      <Head key="slugPage">
         <title>Test SSR Page</title>
         <link rel="icon" href="/favicon.ico" />
         <link

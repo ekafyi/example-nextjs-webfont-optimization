@@ -6,7 +6,7 @@ type IHomePageProps = { name?: string }
 
 export const Home: NextPage<IHomePageProps> = ({ name }): JSX.Element => (
   <div className="container">
-    <Head>
+    <Head key="homePage">
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
       <link
