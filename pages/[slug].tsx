@@ -12,7 +12,6 @@ const SlugPage: NextPage<ISlugPageProps> = ({ slug }) => {
     <div className="container">
       <Head key="slugPage">
         <title>Test SSR Page</title>
-        <link rel="icon" href="/favicon.ico" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"

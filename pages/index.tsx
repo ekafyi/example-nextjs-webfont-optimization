@@ -8,7 +8,6 @@ export const Home: NextPage<IHomePageProps> = ({ name }): JSX.Element => (
   <div className="container">
     <Head key="homePage">
       <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
       <link
         rel="preconnect"
         href="https://fonts.gstatic.com"
