@@ -13,10 +13,6 @@ const SlugPage: NextPage<ISlugPageProps> = ({ slug }) => {
       <Head key="slugPage">
         <title>Test SSR Page</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Lobster"
-          rel="stylesheet"
-        />
       </Head>
       <main>
         <h1 className="title">Server-rendered Page</h1>

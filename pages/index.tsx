@@ -9,10 +9,6 @@ export const Home: NextPage<IHomePageProps> = ({ name }): JSX.Element => (
     <Head key="homePage">
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Permanent+Marker"
-        rel="stylesheet"
-      />
     </Head>
 
     <main>
